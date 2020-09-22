@@ -17,17 +17,16 @@ CALPHAD (Calculation of Phase Diagrams) is one of the most powerful techniques f
 This course will give a detailed introduction to computational thermodynamic software based on atomistic simulations – pyiron – and the CALPHAD method  – pycalphad and ESPEI. This course will feature hands-on demonstrations and practical exercises that will enable attendees to perform atomistic calculations, develop CALPHAD databases with quantified uncertainty, and to propagate uncertainty to any thermodynamic calculation.
  
 ### pyiron - [pyiron.org](https://pyiron.org)
-
+<img class="logo_image" width="100px" src="assets/pyiron-logo.png" alt="pyiron logo">
 pyiron is an integrated development environment for computational materials science. Originally developed for ab initio thermodynamics in the department of Joerg Neugebauer at the Max Planck Institut für Eisenforschung, it has recently been published as an open source software package and has been extended to atomistic simulations in general. In the scope of this workshop pyiron is used to calculate free energies using the quasi harmonic approximation combining specialized codes in one unified interface like LAMMPS for molecular dynamics, phonopy for the calculation of phonons and sqsgenerator to calculate quasi random structures.
-<img align="right" src="assets/pyiron-logo.png" alt="pyiron logo">
  
 ### pycalphad - [pycalphad.org](https://pycalphad.org)
+<img class="logo_image" width="100px" src="assets/pycalphad-logo-withtext.png" alt="pycalphad logo">
 pycalphad is a free and open-source Python library for calculating phase diagrams, designing thermodynamic models, and investigating phase equilibria within the CALPHAD method. It provides routines for reading thermodynamic databases and solving the multi-component, multi-phase Gibbs energy minimization problem. All Gibbs energy and property models in pycalphad are described symbolically allowing the models to be customized or overridden by users at runtime without changing any of the pycalphad source code. Calculation results from pycalphad are returned as multidimensional xarray datasets that make it easy to incorporate pycalphad into any tool or workflow.
-<img align="right" src="assets/pycalphad-logo-withtext.png" alt="pycalphad logo">
  
 ### ESPEI - [espei.org](https://espei.org)
+<img class="logo_image" width="100px" src="assets/ESPEI-logo-withtext-200px.png" alt="ESPEI logo">
 The Extensible Self-optimizing Phase Equilibria Infrastructure (ESPEI) package is a tool for thermodynamic database development and uncertainty quantification within the CALPHAD method. It uses pycalphad for the forward calculation of thermodynamic properties to solve the inverse of parameter evaluation problem. ESPEI uses a two step method to first parameterize thermodynamic models and then optimize and determine the uncertainty of the parameters using Markov Chain Monte Carlo (MCMC).
-<img align="right" src="assets/ESPEI-logo-withtext-200px.png" alt="ESPEI logo">
 
 ## How to apply
 Interested graduate students, postdoctoral or early-career researchers are encouraged to apply to this interactive workshop by submitting a short motivation for attending the workshop (maximum: one paragraph) and a CV to <link to apply> by **Friday, October 2, 2020**. Attendees are encouraged to introduce themselves during one of the flash poster sessions (maximum: one slide). 
