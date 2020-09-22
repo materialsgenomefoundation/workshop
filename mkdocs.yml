@@ -15,6 +15,7 @@ theme:
   palette:
     primary: black
   logo: assets/mgf-logo-notext.png
+  favicon: assets/mgf-logo-notext.png
   font:
     text: Proxima Nova
     code: Roboto Mono
