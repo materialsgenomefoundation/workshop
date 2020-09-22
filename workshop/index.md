@@ -1,76 +1,34 @@
-# Materials Project Workshop 2020 (July 28 - 30)
+# Hands-on Workshop: Software Tools from Atomistics to Phase Diagrams (November 10 and 11, 2020)
 
-The Materials Project Workshop is two-day interactive workshop to learn to use th Materials Project (MP) open-source tools. Topics will include basic structure manipulation, querying data from MP using the API, automating DFT calculations, exploring new chemical systems and machine learning. A optional one-day python and MongoDB primer is provided for anyone new to python programming and using databases. We'll also provide a virtual poster-session for anyone interested in networking with other participants.
+## Organizers: 
 
-## Workshop Videos
+Jan Janssen, Tilmann Hickel, Jörg Neugebauer
+Max-Planck-Institut für Eisenforschung
 
-The lessons for this workshop are on [Youtube](https://www.youtube.com/watch?v=vga6eV3IAac&list=PLTjFYVNE7LTiuOK8Re7ltY0a3OHFcQhAE) and [Bilibili](https://www.bilibili.com/video/BV1Uz4y1f7L5/)
+Richard Otis
+Materials Genome Foundation
 
+Brandon Bocklund
+Pennsylvania State University
 
+Where: Virtual (Zoom)
+When: 11 am - 2 pm EST (5 - 8 pm CET / 8 - 11 am PST) on November 10 and 11, 2020
+Application deadline: October 2, 2020
+Registration fee: No cost for accepted applications
 
-## Location
+## Overview
+CALPHAD (Calculation of Phase Diagrams) is one of the most powerful techniques for Materials Genome and Integrated Computational Materials Engineering (ICME) modeling. While originally based on experimental measurements and extrapolation, the CALPHAD approach has been extended to also include results of atomistic simulation for phases and states which are not experimentally accessible. With the introduction of modern workflow management tools in the atomistic community, it is now possible to use atomistic simulations to facilitate rapid CALPHAD database development. More recently, methods and user tools have been developed that enable automated, reproducible CALPHAD parameter evaluation and uncertainty quantification. This course will give a detailed introduction to computational thermodynamic software based on atomistic simulations – pyiron – and the CALPHAD method  – pycalphad and ESPEI. This course will feature hands-on demonstrations and practical exercises that will enable attendees to perform atomistic calculations, develop CALPHAD databases with quantified uncertainty, and to propagate uncertainty to any thermodynamic calculation.
+ 
+### pyiron - pyiron.org  
+pyiron is an integrated development environment for computational materials science. Originally developed for ab initio thermodynamics in the department of Joerg Neugebauer at the Max Planck Institut für Eisenforschung, it has recently been published as an open source software package and has been extended to atomistic simulations in general. In the scope of this workshop pyiron is used to calculate free energies using the quasi harmonic approximation combining specialized codes in one unified interface like LAMMPS for molecular dynamics, phonopy for the calculation of phonons and sqsgenerator to calculate quasi random structures. 
+ 
+### pycalphad - pycalphad.org 
+pycalphad is a free and open-source Python library for calculating phase diagrams, designing thermodynamic models, and investigating phase equilibria within the CALPHAD method. It provides routines for reading thermodynamic databases and solving the multi-component, multi-phase Gibbs energy minimization problem. All Gibbs energy and property models in pycalphad are described symbolically allowing the models to be customized or overridden by users at runtime without changing any of the pycalphad source code. Calculation results from pycalphad are returned as multidimensional xarray datasets that make it easy to incorporate pycalphad into any tool or workflow.
+ 
+### ESPEI - espei.org 
+The Extensible Self-optimizing Phase Equilibria Infrastructure (ESPEI) package is a tool for thermodynamic database development and uncertainty quantification within the CALPHAD method. It uses pycalphad for the forward calculation of thermodynamic properties to solve the inverse of parameter evaluation problem. ESPEI uses a two step method to first parameterize thermodynamic models and then optimize and determine the uncertainty of the parameters using Markov Chain Monte Carlo (MCMC).
 
-The 2020 Materials Project Workshop will be fully virtual due to COVID related travel and congregation restrictions. We'll use a cloud-based python environment to enable interactive tutorials where we provide close support.
+## How to apply
+Interested graduate students, postdoctoral or early-career researchers are encouraged to apply to this interactive workshop by submitting a short motivation for attending the workshop (maximum: one paragraph) and a CV to <link to apply> by **Friday, October 2, 2020**. Attendees are encouraged to introduce themselves during one of the flash poster sessions (maximum: one slide). 
 
-## Primer (optional)
-All times are in Pacific Daylight Time.
-
-### Tuesday Morning -- Python/Jupyter Primer
-
-- 09:00-09:20 Intro - Logistics
-- 09:20-10:20 Basics - Variables, Lists, Loops
-- 10:20-10:40 Break
-- 10:40-11:40 Control: Conditions, Funtions, Sets/Dictionaries
-- 11:40-12:00 Open Discussion
-- 12:00-13:00 Lunch
-
-### Tuesday Afternoon -- MongoDB using Python primer
-
-- 13:00-13:20 Data Modeling - Python Types to JSON to MongoDB
-- 13:20-14:00 Listing, Counting, Finding, and Dot Notation
-- 14:00-14:20 Break
-- 14:20-15:20 Advanced Filtering, Basic Aggregation, and Indexing
-- 15:20-15:40 Open Discussion
-- 15:40-16:00 Wrap-Up
-
-
-## Main Workshop
-All times are in Pacific Daylight Time.
-
-### Wednesday Morning
-
-- 09:00-09:20 Overview of the Materials Project
-- 09:20-10:20 Using the Website Effectively
-- 10:20-10:40 Break
-- 10:40-11:40 Pymatgen Foundations
-- 11:40-12:00 Open Discussion
-- 12:00-13:00 Lunch
-
-### Wednesday Afternoon
-
-- 13:00-14:00 Working with Surfaces in Pymatgen
-- 14:00-14:20 Break
-- 14:20-15:20 Using the Materials API
-- 15:20-15:40 Open Discussion
-- 15:40-16:00 Wrap-up
-
-### Thursday Morning
-
-- 09:00-09:20 Intro
-- 09:20-10:20 Automating DFT
-- 10:20-10:40 Break
-- 10:40-11:40 Exploring New Systems with Pymatgen
-- 11:40-12:00 Open Discussion
-- 12:00-13:00 Lunch
-
-### Thursday Afternoon
-
-- 13:00-14:00 [MPContribs](https://mpcontribs.org): Share You Data via MPContribs
-- 14:00-14:20 Break
-- 14:20-15:40 Machine Learning with Matminer
-- 15:40-16:00 Wrap-Up
-
-
-## Still have questions?
-
-If you have any further questions, you can find some more helpful info and confact information [here](mailto:feedback@materialsproject.org?subject=Materials Project Workshop 2020)
+Applications will be reviewed and accepted by **Friday, October 9, 2020**. There is no cost to attend the workshop.

@@ -1,8 +1,8 @@
-site_name: The Materials Project Workshop
-site_description: Lessons for the Materials Project Workshop
-copyright: Built by The Materials Project
-site_url: https://workshop.materialsproject.org
-repo_url: https://github.com/materialsproject/workshop
+site_name: Materials Genome Foundation Workshops
+site_description: Information on Materials Genome Foundation Workshops
+copyright: Materials Genome Foundation
+site_url: https://workshop.materialsgenomefoundation.org
+repo_url: https://github.com/materialsgenomefoundatuon/workshop
 docs_dir: workshop
 extra_css: 
   - assets/workshop.css
