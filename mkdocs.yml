@@ -27,7 +27,6 @@ nav:
   - Logistics: logistics/logistics.md
   - People: people/people.md
   - Code of Conduct: code_of_conduct.md
-  - Primer
 
 markdown_extensions:
   - admonition
