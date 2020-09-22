@@ -31,7 +31,7 @@ All Gibbs energy and property models in pycalphad are described symbolically all
  
 ### [ESPEI](https://espei.org)
 The Extensible Self-optimizing Phase Equilibria Infrastructure (ESPEI) package is a tool for thermodynamic database development and uncertainty quantification within the CALPHAD method.
-[<img class="logo_image" width="200px" src="assets/ESPEI-logo-withtext-200px.png" alt="ESPEI logo">](https://espei.org)
+[<img class="logo_image" width="120px" src="assets/ESPEI-logo-withtext-200px.png" alt="ESPEI logo">](https://espei.org)
 It uses pycalphad for the forward calculation of thermodynamic properties to solve the inverse of parameter evaluation problem. ESPEI uses a two step method to first parameterize thermodynamic models and then optimize and determine the uncertainty of the parameters using Markov Chain Monte Carlo (MCMC).
 
 ## How to apply
@@ -42,24 +42,24 @@ Applications will be reviewed and accepted by **Friday, October 9, 2020**. There
 ## Agenda
 All times are in Eastern Standard Time.
 ### Day 1 (November 10, 2020)
-- 11:00 am Opening
+- 11:00am Opening
 - 11:05 Introduction to pyiron and the quasi-harmonic approximation 
 - 11:20 Interactive: Creating atomistic structures with pyiron
 - 11:45 Interactive: Atomistic simulations with pyiron
 - 12:10pm Break
-- 12:20 Interactive: Calculate Phonons and free energies with pyiron
+- 12:20 Interactive: Calculate phonons and free energies with pyiron
 - 12:55 Interactive: From free energies to phase diagrams 
 - 1:20 Summary of the first interactive session and discussion
-- 1:30 Flash poster session 1
+- 1:30 Flash Poster Session 1
  
 ### Day 2 (November 11, 2020)
-- 11:00 am Opening
+- 11:00am Opening
 - 11:05 Introduction to pycalphad
-- 11:15 Interactive: calculating thermodynamic properties with pycalphad
+- 11:15 Interactive: Calculating thermodynamic properties with pycalphad
 - 11:45 Introduction to ESPEI
 - 12:00pm Interactive: ESPEI for CALPHAD database assessment and uncertainty quantification
 - 12:30 Break
-- 12:40 Interactive: uncertainty propagation with PDUQ
-- 1:10 Day 2 summary and discussion
-- 1:40 Flash poster session 2
+- 12:40 Interactive: Uncertainty propagation with PDUQ
+- 1:10 Day 2 Summary and Discussion
+- 1:40 Flash Poster Session 2
 - 1:55 Closing
