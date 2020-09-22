@@ -2,7 +2,7 @@ site_name: Materials Genome Foundation Workshops
 site_description: Information on Materials Genome Foundation Workshops
 copyright: Materials Genome Foundation
 site_url: https://workshop.materialsgenomefoundation.org
-repo_url: https://github.com/materialsgenomefoundatuon/workshop
+repo_url: https://github.com/materialsgenomefoundation/workshop
 docs_dir: workshop
 extra_css: 
   - assets/workshop.css
@@ -13,10 +13,10 @@ extra_javascript:
 theme:
   name: 'material'
   palette:
-    primary: blue grey
-  logo: assets/materials_project_logo_white.svg
+    primary: black
+  logo: assets/mgf-logo-notext.png
   font:
-    text: Roboto
+    text: Proxima Nova
     code: Roboto Mono
   features:
     - instant
