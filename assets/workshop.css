@@ -11,6 +11,11 @@ li.person{
     text-align: center;
 }
 
+img.logo_image {
+    float: right;
+    padding: 10px;
+}
+
 img.person_image {
     display: block;
     height: auto;
