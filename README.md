@@ -1,5 +1,3 @@
-[![Binder](https://mybinder.org/v2/gh/materialsproject/workshop/master)
-
 ## Materials Genome Foundation Workshop
 
 Assets for the Materials Genome Foundation workshop.
