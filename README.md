@@ -1,10 +1,8 @@
 [![Binder](https://mybinder.org/v2/gh/materialsproject/workshop/master)
 
-## Materials Project Workshop
+## Materials Genome Foundation Workshop
 
-Assets for the Materials Project workshop.
-
-*This repository is under development for our 2020 workshop. There may be changes up until the day(s) of the workshop. Click [here](https://github.com/materialsproject/workshop/releases) for a snapshot of the 2019 and 2018 workshop assets.*
+Assets for the Materials Genome Foundation workshop.
 
 
 ## Building the Documentation
