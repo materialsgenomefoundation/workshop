@@ -2,14 +2,14 @@
 
 ## Organizers
 
-Jan Janssen, Tilmann Hickel, Jörg Neugebauer (Max-Planck-Institut für Eisenforschung)<br>
 Richard Otis (Materials Genome Foundation)<br>
-Brandon Bocklund (Pennsylvania State University)
+Jan Janssen, Tilmann Hickel, Jörg Neugebauer (Max-Planck-Institut für Eisenforschung)<br>
+Brandon Bocklund and Zi-Kui Liu (Pennsylvania State University)
 
-*Where*: Virtual (Zoom)<br>
-*When*: 11 am - 2 pm EST (5 - 8 pm CET / 8 - 11 am PST) on November 10 and 11, 2020<br>
-*Application deadline*: **October 2, 2020**<br>
-*Registration fee*: No cost for accepted applications
+*Where:* Virtual (Zoom)<br>
+*When:* 11 am - 2 pm EST (5 - 8 pm CET / 8 - 11 am PST) on November 10 and 11, 2020<br>
+*Application deadline:* **October 2, 2020**<br>
+*Registration fee:* No cost for accepted applications
 
 ## Overview
 CALPHAD (Calculation of Phase Diagrams) is one of the most powerful techniques for Materials Genome and Integrated Computational Materials Engineering (ICME) modeling. While originally based on experimental measurements and extrapolation, the CALPHAD approach has been extended to also include results of atomistic simulation for phases and states which are not experimentally accessible. With the introduction of modern workflow management tools in the atomistic community, it is now possible to use atomistic simulations to facilitate rapid CALPHAD database development. More recently, methods and user tools have been developed that enable automated, reproducible CALPHAD parameter evaluation and uncertainty quantification.
