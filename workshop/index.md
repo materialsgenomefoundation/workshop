@@ -35,7 +35,7 @@ The Extensible Self-optimizing Phase Equilibria Infrastructure (ESPEI) package i
 It uses pycalphad for the forward calculation of thermodynamic properties to solve the inverse of parameter evaluation problem. ESPEI uses a two step method to first parameterize thermodynamic models and then optimize and determine the uncertainty of the parameters using Markov Chain Monte Carlo (MCMC).
 
 ## How to apply
-Interested graduate students, postdoctoral or early-career researchers are encouraged to apply to this interactive workshop by (submitting an application)[register.md] no later than **Friday, October 7, 2020**. Attendees are encouraged to introduce themselves during one of the flash poster sessions (maximum: one slide). 
+Interested graduate students, postdoctoral or early-career researchers are encouraged to [apply to this interactive workshop](register.md) no later than **Friday, October 7, 2020**. Attendees are encouraged to introduce themselves during one of the flash poster sessions (maximum: one slide). 
 
 Applications will be reviewed and accepted by **Friday, October 23, 2020**. There is no cost to attend the workshop.
 
