@@ -28,6 +28,7 @@ nav:
   - Logistics: logistics/logistics.md
   - People: people/people.md
   - Code of Conduct: code_of_conduct.md
+  - Apply: register.md
 
 markdown_extensions:
   - admonition
