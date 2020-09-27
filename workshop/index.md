@@ -8,7 +8,7 @@ Brandon Bocklund and Zi-Kui Liu (Pennsylvania State University)
 
 *Where:* Virtual (Zoom)<br>
 *When:* 11 am - 2 pm EST (5 - 8 pm CET / 8 - 11 am PST) on November 10 and 11, 2020<br>
-*Application deadline:* **October 2, 2020**<br>
+*Application deadline:* **October 7, 2020**<br>
 *Registration fee:* No cost for accepted applications
 
 ## Overview
@@ -35,9 +35,9 @@ The Extensible Self-optimizing Phase Equilibria Infrastructure (ESPEI) package i
 It uses pycalphad for the forward calculation of thermodynamic properties to solve the inverse of parameter evaluation problem. ESPEI uses a two step method to first parameterize thermodynamic models and then optimize and determine the uncertainty of the parameters using Markov Chain Monte Carlo (MCMC).
 
 ## How to apply
-Interested graduate students, postdoctoral or early-career researchers are encouraged to apply to this interactive workshop by submitting a short motivation for attending the workshop (maximum: one paragraph) and a CV to <link to apply> by **Friday, October 2, 2020**. Attendees are encouraged to introduce themselves during one of the flash poster sessions (maximum: one slide). 
+Interested graduate students, postdoctoral or early-career researchers are encouraged to apply to this interactive workshop by (submitting an application)[register.md] no later than **Friday, October 7, 2020**. Attendees are encouraged to introduce themselves during one of the flash poster sessions (maximum: one slide). 
 
-Applications will be reviewed and accepted by **Friday, October 9, 2020**. There is no cost to attend the workshop.
+Applications will be reviewed and accepted by **Friday, October 23, 2020**. There is no cost to attend the workshop.
 
 ## Agenda
 All times are in Eastern Standard Time.
