@@ -25,7 +25,6 @@ theme:
 
 nav:
   - Home: index.md
-  - Logistics: logistics/logistics.md
   - People: people/people.md
   - Code of Conduct: code_of_conduct.md
   - Apply: register.md
