@@ -14,7 +14,7 @@ Brandon Bocklund and Zi-Kui Liu (Pennsylvania State University)
 ## Overview
 CALPHAD (Calculation of Phase Diagrams) is one of the most powerful techniques for Materials Genome and Integrated Computational Materials Engineering (ICME) modeling. While originally based on experimental measurements and extrapolation, the CALPHAD approach has been extended to also include results of atomistic simulation for phases and states which are not experimentally accessible. With the introduction of modern workflow management tools in the atomistic community, it is now possible to use atomistic simulations to facilitate rapid CALPHAD database development. More recently, methods and user tools have been developed that enable automated, reproducible CALPHAD parameter evaluation and uncertainty quantification.
 
-This course will give a detailed introduction to computational thermodynamic software based on atomistic simulations – pyiron – and the CALPHAD method  – pycalphad and ESPEI. This course will feature hands-on demonstrations and practical exercises that will enable attendees to perform atomistic calculations, develop CALPHAD databases with quantified uncertainty, and to propagate uncertainty to any thermodynamic calculation.
+This workshop will give a detailed introduction to computational thermodynamic software based on atomistic simulations – pyiron – and the CALPHAD method  – pycalphad and ESPEI. It will feature hands-on demonstrations and practical exercises that will enable attendees to perform atomistic calculations, develop CALPHAD databases with quantified uncertainty, and to propagate uncertainty to any thermodynamic calculation.
  
 ### [pyiron](https://pyiron.org)
 
