@@ -17,5 +17,5 @@
 
 <ul class="partner_list">
     <li class="partner"> <img class="partner_image" src="../mpie.jpg"><p>MPI für Eisenforschung</p></li>
-    <li class="partner"> <img class="partner_image" src="../potentials.png"><p>DFG Potential Projekt</p></li>
+    <li class="partner"> <img class="partner_image" src="../potentials.png"><p>DFG Potentials Projekt</p></li>
 </ul>
