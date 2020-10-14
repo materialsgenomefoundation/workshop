@@ -17,5 +17,5 @@
 
 <ul class="partner_list">
     <li class="partner"> <img class="partner_image" src="../mpie.jpg"><p>Max Planck Institut für Eisenforschung</p></li>
-    <li class="partner"> <img class="partner_image" src="../potentials.jpg"><p>Deutsche Forschungsgemeinschaft</p></li>
+    <li class="partner"> <img class="partner_image" src="../potentials.jpg"><p>DFG Potential Projekt</p></li>
 </ul>
