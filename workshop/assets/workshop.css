@@ -26,6 +26,28 @@ img.person_image {
     margin: 1rem 1rem 1rem 1rem;
 }
 
+ul.partner_list {
+    padding: 0;
+    margin: 45px 0 0;
+}
+
+li.partner{
+    min-width: 100px;
+    width: 33.3333%;
+    max-width: 200px;
+    display: inline-block;
+    text-align: center;
+}
+
+img.partner_image {
+    display: block;
+    height: auto;
+    width: 100%;
+
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 1rem 1rem 1rem 1rem;
+}
+
 @media screen and (min-width: 540px) and (max-width: 800px) {
    .person {
     width: 25%;
