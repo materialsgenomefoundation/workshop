@@ -42,7 +42,8 @@ Applications will be reviewed and accepted by **Friday, October 28, 2020**. Ther
 ## Agenda
 All times are in Eastern Standard Time.
 ### Day 1 (November 10, 2020)
- A virtual version of the **[pyiron tutorial](https://pyiron.org/phasediagram-workshop-2020/)** with video tutorials and jupyter notebook exercises is available on the pyiron website [pyiron.org/phasediagram-workshop-2020](https://pyiron.org/phasediagram-workshop-2020/). 
+ A virtual version of the **[pyiron tutorial](https://pyiron.org/phasediagram-workshop-2020/)** with video tutorials and jupyter notebook exercises is available on the pyiron website [pyiron.org/phasediagram-workshop-2020](https://pyiron.org/phasediagram-workshop-2020/).
+
 - 11:00am Opening
 - 11:05 Introduction to pyiron and the quasi-harmonic approximation 
 - 11:20 Interactive: Creating atomistic structures with pyiron
