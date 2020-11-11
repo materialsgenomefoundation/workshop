@@ -21,7 +21,7 @@ This workshop will give a detailed introduction to computational thermodynamic s
 pyiron is an integrated development environment for computational materials science.
 [<img class="logo_image" width="100px" src="assets/pyiron-logo.png" alt="pyiron logo">](https://pyiron.org)
 Originally developed for ab initio thermodynamics in the department of Joerg Neugebauer at the Max Planck Institut für Eisenforschung, it has recently been published as an open source software package and has been extended to atomistic simulations in general.
-In the scope of this workshop pyiron is used to calculate free energies using the quasi harmonic approximation combining specialized codes in one unified interface like LAMMPS for molecular dynamics, phonopy for the calculation of phonons and sqsgenerator to calculate quasi random structures.
+In the scope of this workshop pyiron is used to calculate free energies using the quasi harmonic approximation combining specialized codes in one unified interface like LAMMPS for molecular dynamics, phonopy for the calculation of phonons and sqsgenerator to calculate quasi random structures. A virtual version of the **[pyiron tutorial](https://pyiron.org/phasediagram-workshop-2020/)** with video tutorials and jupyter notebook exercises is available on the pyiron website [pyiron.org/phasediagram-workshop-2020](https://pyiron.org/phasediagram-workshop-2020/). 
  
 ### [pycalphad](https://pycalphad.org)
 pycalphad is a free and open-source Python library for calculating phase diagrams, designing thermodynamic models, and investigating phase equilibria within the CALPHAD method.
@@ -42,6 +42,7 @@ Applications will be reviewed and accepted by **Friday, October 28, 2020**. Ther
 ## Agenda
 All times are in Eastern Standard Time.
 ### Day 1 (November 10, 2020)
+ A virtual version of the **[pyiron tutorial](https://pyiron.org/phasediagram-workshop-2020/)** with video tutorials and jupyter notebook exercises is available on the pyiron website [pyiron.org/phasediagram-workshop-2020](https://pyiron.org/phasediagram-workshop-2020/). 
 - 11:00am Opening
 - 11:05 Introduction to pyiron and the quasi-harmonic approximation 
 - 11:20 Interactive: Creating atomistic structures with pyiron
