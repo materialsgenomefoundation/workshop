@@ -3,8 +3,8 @@
 ## Organizers
 
 Richard Otis (Materials Genome Foundation)<br>
-Dongwon Shin (Oak Ridge National Laboratory))<br>
-Brandon Bocklund (Lawrence Livermore National Laboratory)
+Dongwon Shin (Oak Ridge National Laboratory)<br>
+Brandon Bocklund (Lawrence Livermore National Laboratory)<br>
 Zi-Kui Liu (Pennsylvania State University)<br>
 
 *Where:* Virtual (Zoom)<br>
