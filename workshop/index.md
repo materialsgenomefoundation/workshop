@@ -1,3 +1,5 @@
+<script src="https://www.paypal.com/sdk/js?client-id=Ae4lvd_hqUEpDDU8MkJo9_9IZKbO6SgHcwq9snBas08wzSHA3pNLlupNh4tYnySxylZ99t4dEaGfKI-N" data-sdk-integration-source="button-factory"></script>
+
 # Software Tools from Machine Learning to Phase Diagrams (July 13 and 14, 2022)
 
 ## Organizers
@@ -9,13 +11,12 @@ Zi-Kui Liu (Pennsylvania State University)<br>
 
 *Where:* Virtual (Zoom)<br>
 *When:* 11 am - 2 pm EST (5 - 8 pm CET / 8 - 11 am PST) on July 13 and 14, 2022<br>
-*Application deadline:* **July 8, 2022**<br>
-*Registration fee:* No cost for accepted applications
+*Registration deadline:* **July 8, 2022**<br>
 
 ## Overview
 CALPHAD (Calculation of Phase Diagrams) is one of the most powerful techniques for Materials Genome and Integrated Computational Materials Engineering (ICME) modeling. While originally based on experimental measurements and extrapolation, the CALPHAD approach has been extended to also include results of atomistic simulation for phases and states which are not experimentally accessible. With the introduction of modern workflow management tools in the atomistic community, it is now possible to use atomistic simulations to facilitate rapid CALPHAD database development. More recently, methods and user tools have been developed that enable automated, reproducible CALPHAD parameter evaluation and uncertainty quantification.
 
-This workshop will give a detailed introduction to computational thermodynamic software based on the CALPHAD method  – pycalphad and ESPEI - as well as an introduction to machine learning methods in computational materials science using the ASCENDS software. It will feature hands-on demonstrations and practical exercises that will enable attendees to perform machine learning calculations, develop CALPHAD databases with quantified uncertainty, and to propagate uncertainty to any thermodynamic calculation.
+This workshop will give a detailed introduction to computational thermodynamic software based on the CALPHAD method  – pycalphad and ESPEI - as well as an introduction to machine learning methods in computational materials science using the ASCENDS software. It will feature hands-on demonstrations in an interactive cloud environment and practical exercises that will enable attendees to perform machine learning calculations, develop CALPHAD databases with quantified uncertainty, and to propagate uncertainty to any thermodynamic calculation.
  
 ### [ASCENDS](https://github.com/ornlpmcp/ASCENDS)
 
@@ -33,10 +34,104 @@ The Extensible Self-optimizing Phase Equilibria Infrastructure (ESPEI) package i
 [<img class="logo_image" width="120px" src="assets/ESPEI-logo-withtext-200px.png" alt="ESPEI logo">](https://espei.org)
 It uses pycalphad for the forward calculation of thermodynamic properties to solve the inverse of parameter evaluation problem. ESPEI uses a two step method to first parameterize thermodynamic models and then optimize and determine the uncertainty of the parameters using Markov Chain Monte Carlo (MCMC).
 
-## How to apply
-Interested graduate students, postdoctoral or early-career researchers are encouraged to [apply to this interactive workshop](register.md) no later than **July 8, 2022**.
+## How to register
+Interested graduate students, postdoctoral or early-career researchers, and other enthusiasts are encouraged to register prior to the deadline on **July 8, 2022**.
 
-Applications will be reviewed and accepted by **Monday, July 11, 2022**. There is no cost to attend the workshop.
+Please be sure to use a valid e-mail address with payment, as this is how the organizers will communicate with you regarding workshop logistics.
+
+<div id="smart-button-container">
+      <div style="text-align: center;">
+        <div style="margin-bottom: 1.25rem;">
+          <select id="item-options"><option value="Standard Attendee" price="200">Standard Attendee - 200 USD</option><option value="Student Attendee" price="100">Student Attendee - 100 USD</option></select>
+          <select style="visibility: hidden" id="quantitySelect"></select>
+        </div>
+      <div id="paypal-button-container"></div>
+      </div>
+</div>
+<script>
+      function initPayPalButton() {
+        var shipping = 0;
+        var itemOptions = document.querySelector("#smart-button-container #item-options");
+    var quantity = parseInt();
+    var quantitySelect = document.querySelector("#smart-button-container #quantitySelect");
+    if (!isNaN(quantity)) {
+      quantitySelect.style.visibility = "visible";
+    }
+    var orderDescription = 'Software Tools from Machine Learning to Phase Diagrams (July 13 and 14, 2022) MGF Virtual Workshop Registration';
+    if(orderDescription === '') {
+      orderDescription = 'Item';
+    }
+    paypal.Buttons({
+      style: {
+        shape: 'pill',
+        color: 'blue',
+        layout: 'vertical',
+        label: 'paypal',
+      },
+      createOrder: function(data, actions) {
+        var selectedItemDescription = itemOptions.options[itemOptions.selectedIndex].value;
+        var selectedItemPrice = parseFloat(itemOptions.options[itemOptions.selectedIndex].getAttribute("price"));
+        var tax = (0 === 0 || false) ? 0 : (selectedItemPrice * (parseFloat(0)/100));
+        if(quantitySelect.options.length > 0) {
+          quantity = parseInt(quantitySelect.options[quantitySelect.selectedIndex].value);
+        } else {
+          quantity = 1;
+        }
+        tax *= quantity;
+        tax = Math.round(tax * 100) / 100;
+        var priceTotal = quantity * selectedItemPrice + parseFloat(shipping) + tax;
+        priceTotal = Math.round(priceTotal * 100) / 100;
+        var itemTotalValue = Math.round((selectedItemPrice * quantity) * 100) / 100;
+        return actions.order.create({
+          purchase_units: [{
+            description: orderDescription,
+            amount: {
+              currency_code: 'USD',
+              value: priceTotal,
+              breakdown: {
+                item_total: {
+                  currency_code: 'USD',
+                  value: itemTotalValue,
+                },
+                tax_total: {
+                  currency_code: 'USD',
+                  value: tax,
+                }
+              }
+            },
+            items: [{
+              name: selectedItemDescription,
+              unit_amount: {
+                currency_code: 'USD',
+                value: selectedItemPrice,
+              },
+              quantity: quantity
+            }],
+          }],
+          application_context: {
+            brand_name: 'Materials Genome Foundation',
+            shipping_preference: 'NO_SHIPPING',
+          },
+        });
+      },
+      onApprove: function(data, actions) {
+        return actions.order.capture().then(function(orderData) {
+          // Full available details
+          console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+          // Show a success message within this page, e.g.
+          const element = document.getElementById('paypal-button-container');
+          element.innerHTML = '';
+          element.innerHTML = '<h3>Thank you for registering! If you have any questions, please contact richard.otis@materialsgenomefoundation.org</h3>';
+          // Or go to another URL:  actions.redirect('thank_you.html');
+        });
+      },
+      onError: function(err) {
+        console.log(err);
+      },
+    }).render('#paypal-button-container');
+  }
+  initPayPalButton();
+</script>
 
 ## Agenda
 All times are in Eastern Standard Time.
