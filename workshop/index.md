@@ -1,4 +1,4 @@
-<script src="https://www.paypal.com/sdk/js?client-id=Ae4lvd_hqUEpDDU8MkJo9_9IZKbO6SgHcwq9snBas08wzSHA3pNLlupNh4tYnySxylZ99t4dEaGfKI-N" data-sdk-integration-source="button-factory"></script>
+<script src="https://www.paypal.com/sdk/js?client-id=AT6qOEFhfDUQo5WD8iQF3odXJz0Hu8rvDSST1A-ge0vbZTwNgf6oatt5h2q6T4nRMi1_IuBT2xzZLUQY" data-sdk-integration-source="button-factory"></script>
 
 # Software Tools from Machine Learning to Phase Diagrams (July 13 and 14, 2022)
 
