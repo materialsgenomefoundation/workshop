@@ -42,7 +42,7 @@ Please be sure to use a valid e-mail address with payment, as this is how the or
 <div id="smart-button-container">
       <div style="text-align: center;">
         <div style="margin-bottom: 1.25rem;">
-          <select id="item-options"><option value="MGF Virtual Workshop Registration - July 13 and 14, 2022 - Standard Attendee" price="199">Standard Attendee - 199 USD</option><option value="MGF Virtual Workshop Registration - July 13 and 14, 2022 - Student Attendee" price="29">Student Attendee - 29 USD</option></select>
+          <select id="item-options" size="2"><option value="MGF Virtual Workshop Registration - July 13 and 14, 2022 - Standard Attendee" price="199">Standard Attendee - 199 USD</option><option value="MGF Virtual Workshop Registration - July 13 and 14, 2022 - Student Attendee" price="29">Student Attendee - 29 USD</option></select>
           <select style="visibility: hidden" id="quantitySelect"></select>
         </div>
       <div id="paypal-button-container"></div>
