@@ -11,7 +11,7 @@ Zi-Kui Liu (Pennsylvania State University)<br>
 
 *Where:* Virtual (Zoom)<br>
 *When:* 11 am - 2 pm EST (5 - 8 pm CET / 8 - 11 am PST) on July 13 and 14, 2022<br>
-*Registration deadline:* **July 8, 2022**<br>
+*Registration deadline:* **July 12, 2022 (Extended)**<br>
 
 ## Overview
 CALPHAD (Calculation of Phase Diagrams) is one of the most powerful techniques for Materials Genome and Integrated Computational Materials Engineering (ICME) modeling. While originally based on experimental measurements and extrapolation, the CALPHAD approach has been extended to also include results of atomistic simulation for phases and states which are not experimentally accessible. With the introduction of modern workflow management tools in the atomistic community, it is now possible to use atomistic simulations to facilitate rapid CALPHAD database development. More recently, methods and user tools have been developed that enable automated, reproducible CALPHAD parameter evaluation and uncertainty quantification.
@@ -35,7 +35,7 @@ The Extensible Self-optimizing Phase Equilibria Infrastructure (ESPEI) package i
 It uses pycalphad for the forward calculation of thermodynamic properties to solve the inverse of parameter evaluation problem. ESPEI uses a two step method to first parameterize thermodynamic models and then optimize and determine the uncertainty of the parameters using Markov Chain Monte Carlo (MCMC).
 
 ## How to register
-Interested graduate students, postdoctoral or early-career researchers, and other enthusiasts are encouraged to register prior to the deadline on **July 8, 2022**.
+Interested graduate students, postdoctoral or early-career researchers, and other enthusiasts are encouraged to register prior to the deadline on **July 12, 2022**.
 
 Please be sure to use a valid e-mail address with payment, as this is how the organizers will communicate with you regarding workshop logistics.
 
