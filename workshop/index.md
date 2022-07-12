@@ -1,5 +1,3 @@
-<script src="https://www.paypal.com/sdk/js?client-id=AT6qOEFhfDUQo5WD8iQF3odXJz0Hu8rvDSST1A-ge0vbZTwNgf6oatt5h2q6T4nRMi1_IuBT2xzZLUQY" data-sdk-integration-source="button-factory"></script>
-
 # Software Tools from Machine Learning to Phase Diagrams (July 13 and 14, 2022)
 
 ## Organizers
@@ -11,7 +9,7 @@ Zi-Kui Liu (Pennsylvania State University)<br>
 
 *Where:* Virtual (Zoom)<br>
 *When:* 11 am - 2 pm EST (5 - 8 pm CET / 8 - 11 am PST) on July 13 and 14, 2022<br>
-*Registration deadline:* **July 12, 2022 (Extended)**<br>
+*Registration deadline:* **July 12, 2022 (Closed)**<br>
 
 ## Overview
 CALPHAD (Calculation of Phase Diagrams) is one of the most powerful techniques for Materials Genome and Integrated Computational Materials Engineering (ICME) modeling. While originally based on experimental measurements and extrapolation, the CALPHAD approach has been extended to also include results of atomistic simulation for phases and states which are not experimentally accessible. With the introduction of modern workflow management tools in the atomistic community, it is now possible to use atomistic simulations to facilitate rapid CALPHAD database development. More recently, methods and user tools have been developed that enable automated, reproducible CALPHAD parameter evaluation and uncertainty quantification.
@@ -40,98 +38,8 @@ Interested graduate students, postdoctoral or early-career researchers, and othe
 Please be sure to use a valid e-mail address with payment, as this is how the organizers will communicate with you regarding workshop logistics.
 
 <div id="smart-button-container">
-      <div style="text-align: center;">
-        <div style="margin-bottom: 1.25rem;">
-          <select id="item-options" size="2"><option value="MGF Virtual Workshop Registration - July 13 and 14, 2022 - Standard Attendee" price="199">Standard Attendee - 199 USD</option><option value="MGF Virtual Workshop Registration - July 13 and 14, 2022 - Student Attendee" price="29">Student Attendee - 29 USD</option></select>
-          <select style="visibility: hidden" id="quantitySelect"></select>
-        </div>
-      <div id="paypal-button-container"></div>
-      </div>
+      Registration is now closed.
 </div>
-<script>
-      function initPayPalButton() {
-        var shipping = 0;
-        var itemOptions = document.querySelector("#smart-button-container #item-options");
-    var quantity = parseInt();
-    var quantitySelect = document.querySelector("#smart-button-container #quantitySelect");
-    if (!isNaN(quantity)) {
-      quantitySelect.style.visibility = "visible";
-    }
-    var orderDescription = 'Software Tools from Machine Learning to Phase Diagrams (July 13 and 14, 2022) MGF Virtual Workshop Registration';
-    if(orderDescription === '') {
-      orderDescription = 'Item';
-    }
-    paypal.Buttons({
-      style: {
-        shape: 'pill',
-        color: 'blue',
-        layout: 'vertical',
-        label: 'paypal',
-      },
-      createOrder: function(data, actions) {
-        var selectedItemDescription = itemOptions.options[itemOptions.selectedIndex].value;
-        var selectedItemPrice = parseFloat(itemOptions.options[itemOptions.selectedIndex].getAttribute("price"));
-        var tax = (0 === 0 || false) ? 0 : (selectedItemPrice * (parseFloat(0)/100));
-        if(quantitySelect.options.length > 0) {
-          quantity = parseInt(quantitySelect.options[quantitySelect.selectedIndex].value);
-        } else {
-          quantity = 1;
-        }
-        tax *= quantity;
-        tax = Math.round(tax * 100) / 100;
-        var priceTotal = quantity * selectedItemPrice + parseFloat(shipping) + tax;
-        priceTotal = Math.round(priceTotal * 100) / 100;
-        var itemTotalValue = Math.round((selectedItemPrice * quantity) * 100) / 100;
-        return actions.order.create({
-          purchase_units: [{
-            description: orderDescription,
-            amount: {
-              currency_code: 'USD',
-              value: priceTotal,
-              breakdown: {
-                item_total: {
-                  currency_code: 'USD',
-                  value: itemTotalValue,
-                },
-                tax_total: {
-                  currency_code: 'USD',
-                  value: tax,
-                }
-              }
-            },
-            items: [{
-              name: selectedItemDescription,
-              unit_amount: {
-                currency_code: 'USD',
-                value: selectedItemPrice,
-              },
-              quantity: quantity
-            }],
-          }],
-          application_context: {
-            brand_name: 'Materials Genome Foundation',
-            shipping_preference: 'NO_SHIPPING',
-          },
-        });
-      },
-      onApprove: function(data, actions) {
-        return actions.order.capture().then(function(orderData) {
-          // Full available details
-          console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-          // Show a success message within this page, e.g.
-          const element = document.getElementById('paypal-button-container');
-          element.innerHTML = '';
-          element.innerHTML = '<h3>Thank you for registering! If you have any questions, please contact richard.otis@materialsgenomefoundation.org</h3>';
-          // Or go to another URL:  actions.redirect('thank_you.html');
-        });
-      },
-      onError: function(err) {
-        console.log(err);
-      },
-    }).render('#paypal-button-container');
-  }
-  initPayPalButton();
-</script>
 
 ## Agenda
 All times are in Eastern Standard Time.
