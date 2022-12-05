@@ -1,4 +1,4 @@
-# Software Tool for high-throughput first-principles calculations – DFTTK (December 15, 2022)
+# A Software Tool for high-throughput first-principles calculations – DFTTK (December 15, 2022)
 
 ## Organizers
 
@@ -27,9 +27,7 @@ Interested graduate students, postdoctoral or early-career researchers, and othe
 
 Please be sure to use a valid e-mail address, as this is how the organizers will communicate with you regarding workshop logistics.
 
-<div id="smart-button-container">
-      Registration will open shortly.
-</div>
+<iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=RLeuyWtJAEuC1Ashm360Z-dvlOkLGftPnT-_UkbEKbxUQ0VYVURQSDNRNUZNV1QxOFVaSzhRMFBJOS4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 
 ## Agenda
 All times are in Eastern Standard Time.
