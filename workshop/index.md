@@ -23,6 +23,9 @@ DFTTK is a free and open-source Python library for calculating all kinds of ther
 The goal of DFTTK is to make high-throughput first-principles calculations as simple as possible. The density functional theory (DFT) based software VASP is employed to perform first-principles calculations. In addition thermodynamic properties via the quasiharmonic approach, we proposed that any property, as long as it is dependent on the volume or stain, can be predicted using a quasi-static approach implemented by our group according to (i) the predicted property-volume/strain relationship from first-principles calculations directly and (ii) the volume/strain-temperature relationship of materials from the quasiharmonic approach.
 
 ## How to register
+
+Supported by the National Science Foundation POSE project [“A Path to Sustaining a New Open-Source Ecosystem for Materials Science (OSEMatS)”](https://nsf.gov/awardsearch/showAward?AWD_ID=2229690), Materials Genome Foundation in collaboration with Penn State is pleased to offer this workshop free of charge.
+
 Interested graduate students, postdoctoral or early-career researchers, and other enthusiasts are encouraged to register prior to the deadline on **December 12, 2022**.
 
 Please be sure to use a valid e-mail address, as this is how the organizers will communicate with you regarding workshop logistics.
