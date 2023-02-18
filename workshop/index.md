@@ -20,8 +20,8 @@ Workshop attendees will gain the ability to perform formation energy predictions
 Adam M. Krajewski is the lead developer of pySIPFENN and a 4th year PhD student working with Prof. Zi-Kui Liu at The Pennsylvania State University. Adam's research focuses on a wide variety of databases and software tools for computational thermodynamics. Prof. Liu has over 20 years of experience in the prediction of fundamental thermodynamic properties such as formation enthalpy, and for the last four years, works with Adam on machine learning (ML) surrogates to guide experiments and more expensive ab-initio methods.
 
 ### Further Reading
-- GitHub repository: https://github.com/PhasesResearchLab/pySIPFENN
-- Journal article: Adam M. Krajewski, Jonathan W. Siegel, Jinchao Xu, Zi-Kui Liu, "Extensible Structure-Informed Prediction of Formation Energy with improved accuracy and usability employing neural networks", _Computational Materials Science_, Volume 208, 2022, 111254 (https://doi.org/10.1016/j.commatsci.2022.111254) (preprint: https://arxiv.org/abs/2008.13654)
+- GitHub repository: [https://github.com/PhasesResearchLab/pySIPFENN](https://github.com/PhasesResearchLab/pySIPFENN)
+- Journal article: Adam M. Krajewski, Jonathan W. Siegel, Jinchao Xu, Zi-Kui Liu, "Extensible Structure-Informed Prediction of Formation Energy with improved accuracy and usability employing neural networks", _Computational Materials Science_, Volume 208, 2022, 111254 ([https://doi.org/10.1016/j.commatsci.2022.111254](https://doi.org/10.1016/j.commatsci.2022.111254)) (preprint: [https://arxiv.org/abs/2008.13654](https://arxiv.org/abs/2008.13654))
 
 ## How to register
 
