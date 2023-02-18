@@ -39,6 +39,6 @@ All times are in Eastern Standard Time.
 - 12:00pm Opening
 - 12:05 Introduction to data science for materials research
 - 12:20 pySIPFENN Introduction
-- 12:30 pySIPFENN Demonstration using Jupiter
+- 12:30 pySIPFENN Demonstration using Jupyter
 - 1:15 Q&A
 - 1:30 Closing / Discussion Room
