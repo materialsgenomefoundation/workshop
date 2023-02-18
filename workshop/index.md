@@ -25,7 +25,7 @@ Adam M. Krajewski is the lead developer of pySIPFENN and a 4th year PhD student 
 
 ## How to register
 
-Supported by the National Science Foundation POSE project [“A Path to Sustaining a New Open-Source Ecosystem for Materials Science (OSEMatS)”](https://nsf.gov/awardsearch/showAward?AWD_ID=2229690), Materials Genome Foundation in collaboration with Penn State is pleased to offer this workshop free of charge.
+Supported by the National Science Foundation POSE project [“A Path to Sustaining a New Open-Source Ecosystem for Materials Science (OSEMatS)”](https://nsf.gov/awardsearch/showAward?AWD_ID=2229690), Materials Genome Foundation in collaboration with Penn State is pleased to offer this workshop free of charge, with cloud computing resources provided by [IBM Cloud](https://cloud.ibm.com/).
 
 Interested graduate students, postdoctoral or early-career researchers, and other enthusiasts are encouraged to register prior to the deadline on **February 28, 2023**.
 
